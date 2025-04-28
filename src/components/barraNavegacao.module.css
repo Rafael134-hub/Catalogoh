@@ -1,0 +1,24 @@
+.container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15rem;
+    margin-right: 5vw;
+}
+
+.container ul li{
+    list-style: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container ul li p{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.container ul li p:hover{
+    color: #ff640a;
+}

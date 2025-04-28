@@ -1,0 +1,36 @@
+.container{
+    background: linear-gradient(#000, rgb(32, 56, 66));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    color: white;
+}
+
+.area_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24vw;
+    margin-left: 15vw;
+}
+
+.area_1 h2, h3{
+    font-weight: 500;
+}
+
+.area_1 p{
+    font-size: 25px;
+}
+
+.area_2{
+    margin-right: 15vw;
+}
+
+#line_area{
+    max-width: 100%;
+}
+
+.elemento_linha{
+    border-top: 1px solid #dadada;
+}
