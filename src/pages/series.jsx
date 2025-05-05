@@ -1,9 +1,13 @@
-import estilos from './series.module.css'
+import estilos from './series.module.css';
+import { Lista_series } from '../components/lista_series'
 
-export function Serie(){
+export function Series(){
     return(
-        <div className='estilos.container'>
-            <h2>Series</h2>
-        </div>
+        <>
+            <main className={estilos.container}>
+                <h2>Nosso catalogo de séries:</h2>
+                <Lista_series />
+            </main>
+        </>
     )
 }
